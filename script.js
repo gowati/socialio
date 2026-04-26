@@ -1,5 +1,6 @@
-const SUPABASE_URL = 'YOUR_SUPABASE_URL_HERE';
-const SUPABASE_KEY = 'YOUR_SUPABASE_ANON_KEY_HERE';
+const SUPABASE_URL = 'https://yourid.supabase.co'; 
+const SUPABASE_KEY = 'your-long-anon-key-here';
+
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const container = document.getElementById('game-container');
